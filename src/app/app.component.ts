@@ -12,8 +12,9 @@ import { environment } from 'src/environments/environment';
 })
 export class AppComponent {
   // title = 'GithubSearch';
-  user:User;
-  repo:Repo;
+  // title = 'GithubSearch';
+  user!: User;
+  repo!: Repo;
   repos = [];
   Users=[]
   searchTerm = '';
