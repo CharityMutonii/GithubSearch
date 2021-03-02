@@ -11,7 +11,7 @@ import { environment } from 'src/environments/environment';
 export class ServiceService {
   user: User;
   repo: Repo;
-  repos;
+  repos: any;
 
   profile = environment.url;
 
