@@ -6,6 +6,6 @@ export class Repo {
         public forks:number,
         public language:string,
         public html_url:string,
-        public date_created
+        public date_created:any
       ){}
 }

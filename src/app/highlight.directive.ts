@@ -10,8 +10,8 @@ export class HighlightDirective {
   @HostBinding('style.backgroundColor')backgroundColor = 'transparent';
 
   @HostListener('mouseover') mouseover(eventData: Event) {
-    this.elem.nativeElement.style.backgroundColor = 'green';
-    this.elem.nativeElement.style.color = 'red';
+    this.elem.nativeElement.style.backgroundColor = 'pink';
+    this.elem.nativeElement.style.color = 'white';
 }
 
 @HostListener('mouseleave') mouseleave(eventData: Event) {

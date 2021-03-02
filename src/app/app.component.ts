@@ -11,8 +11,6 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // title = 'GithubSearch';
-  // title = 'GithubSearch';
   user!: User;
   repo!: Repo;
   repos = [];
@@ -42,6 +40,7 @@ export class AppComponent {
   }
  
   ngOnInit(): void {
+  
     this.onSearch('CharityMutonii');
   }
 }
