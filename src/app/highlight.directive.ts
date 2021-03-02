@@ -20,7 +20,7 @@ export class HighlightDirective {
 }
 
   gnOninit() {
-    this.elem.nativeElement.style.backgroundColor = 'yellow';
+    this.elem.nativeElement.style.backgroundColor = 'rgb(219, 123, 195)';
     this.elem.nativeElement.style.color = 'white';
   }
 
