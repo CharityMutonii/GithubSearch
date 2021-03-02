@@ -32,7 +32,7 @@ export class ServiceService {
       html_url: string,
     
     }
-    let promise = new Promise((resolve, reject) => {
+    let promise = new Promise<void>((resolve, reject) => {
       this.http.get<expected>('https://api.github.com/users/' + num + '?access_token=' + this.profile).toPromise().then(data => {
 
         this.user = new User(
@@ -70,7 +70,7 @@ export class ServiceService {
       html_url:any,
       date_created:any
     }
-    let promise = new Promise((resolve, reject) => {
+    let promise = new Promise<void>((resolve, reject) => {
       this.http.get<expected>('https://api.github.com/users/' + num + '/repos' + '?access_token='+ this.profile).toPromise().then(data => {
 
         this.repo = new Repo(
