@@ -29,10 +29,10 @@ export class AppComponent {
         console.log(error)
       }
     );
-    this.sec.userRepo(SearchTerm).then((result) => {
+    this.sec.userRepo(SearchTerm).then((result: any) => {
       this.repo = this.sec.repo
     },
-      (error) => {
+      (error: any) => {
         console.log(error)
       }
     );

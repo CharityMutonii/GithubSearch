@@ -90,7 +90,8 @@ export class ServiceService {
           console.log(error);
 
           reject()
-        });
+        }
+        )
 
     });
     return promise;
