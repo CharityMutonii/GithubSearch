@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  // url:"317097628ce700b45059708c254efc9509c1ef5f5",
+  url:"c8fa04707106a06180b2eda4de6a2f76906102fd",
 };
