@@ -31,7 +31,7 @@ It is a website where users may enter a GitHub username into a form, submit it, 
  Tel: 0783009892
 
 ### Github live pages
- https://charitymutonii.github.io/QuotesApp/
+ https://charitymutonii.github.io/GithubSearch/
 
 ### License 
 This project is license  by MIT 
